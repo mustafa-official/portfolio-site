@@ -13,7 +13,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px 220px 0;
+    padding: 50px 230px 0;
 }
 
 .site-title {
@@ -107,7 +107,8 @@ nav a {
 
 /* About Section  */
 main {
-    padding: 0 220px;
+    margin: 0 auto;
+    max-width: 1140px;
 }
 
 .primary-section-title {
@@ -124,10 +125,36 @@ main {
     line-height: 30px;
     max-width: 827px;
     margin-top: 30px;
-    
+
 }
-.about-section{
+
+.about-section {
     background-color: #FFF8F3;
-    padding: 130px 150px;
+    padding: 130px 156px;
     margin: 130px 0;
+    border-radius: 10px;
+}
+
+.about-info-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.info-title {
+    color: #757575;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.info-description {
+    color:#474747;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 30px;
 }
