@@ -111,7 +111,8 @@ main {
     margin: 0 auto;
     max-width: 1140px;
 }
-main section{
+
+main section {
     margin-top: 130px;
 }
 
@@ -202,4 +203,47 @@ main section{
 
 .what-section .skill-img {
     display: block;
+}
+
+/*summary section*/
+
+.summary-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.summary-container {
+    display: flex;
+    column-gap: 70px;
+}
+
+.summary-item-title {
+    color: #474747;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.summary-item-company {
+    color: #757575;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.summary-item-description {
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    
+   
+}
+.download-cv{
+    text-align: center;
+    margin-top: 50px;
+    
 }
