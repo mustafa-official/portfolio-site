@@ -90,20 +90,15 @@ nav a {
     background-color: #FFF8F3;
     background-image: url('../images/header_bg.png'), url('../images/developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right, top left;
-
+    background-position: bottom right, left center;
 }
+
 
 .banner {
     display: flex;
     align-items: center;
     padding-left: 200px;
     justify-content: space-between;
-}
-
-.banner .profile-pic {
-    width: 500px;
-
 }
 
 .banner .hello {
@@ -355,4 +350,109 @@ textarea {
     font-weight: 400;
     font-family: 'Open Sans', sans-serif;
 
+}
+
+/* Responsive part  */
+
+@media only screen and (max-width:576px) {
+    .download-btn {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 50%;
+    }
+
+    .main-nav,
+    .about-info-container,
+    .footer-main-column,
+    .summary-container,
+    .skill-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .contact>input,
+    textarea {
+        width: 92%;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .footer-main-column {
+        text-align: center;
+    }
+
+    .description-item {
+        padding: 90px 15px;
+    }
+
+}
+
+@media only screen and (min-width: 576px) and (max-width: 992px) {
+
+    .footer-main-column,
+    .summary-container,
+    .skill-container {
+        flex-direction: column;
+        gap: 25px;
+    }
+
+    .contact>input,
+    textarea {
+        width: 92%;
+    }
+
+    .footer-column {
+        width: 100%;
+    }
+
+    .footer-main-column {
+        text-align: center;
+    }
+
+    .footer-column-title-description {
+        margin: 0 auto;
+    }
+
+    .description-item {
+        padding: 90px 15px;
+
+    }
+
+    .about-info-container {
+        flex-direction: column;
+    }
+
+    .download-btn {
+        margin-right: 0;
+        margin-bottom: 15px;
+    }
+
+    .header {
+        background-image: none;
+    }
+
+    .banner {
+        flex-direction: column;
+        padding: 0 20px;
+        text-align: center;
+    }
+
+    .profile-pic {
+        width: 50%;
+    }
 }
